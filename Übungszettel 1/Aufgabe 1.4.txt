@@ -1,0 +1,43 @@
+﻿a)
+Der kleine Hund jagt die große bissige Katze
+N= {Satz, Subjekt, Prädikat, Objekt, Artikel, Attribut, Adjektiv}
+T= {der, die, das, kleine, große, bissige, Hund, Katzje, jagt
+
+Satz -> Subjekt Prädikat Objekt
+Satz -> Artikel Attribut Substantiv Prädikat Objekt
+Satz -> Artikel Attribut Substantiv jagt Artikel Attribut Attribut Substantiv
+Satz -> der kleine Substantiv jagt die Attribut Attribut Katze
+Satz -> der kleine Hund jagt die grosse bissige Katze
+
+b)
+
+<Kennzeichen> ::= <Unterscheidungszeichen><Blocktrenner><Erkennungszeichen>
+<Buchstabe> ::= {A | B | C | D | … | Z }
+<Ziffer>   ::= {0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9}
+<Blocktrenner> ::= '-' 
+<Unterscheidungszeichen> ::= {<Buchstabe>[<Buchstabe>][<Buchstabe>]}
+<Erkennungsnummer> ::= {<Buchstabe>[<Buchstabe>]}'-'{<Ziffer>[<Ziffer>][<Ziffer>]}
+
+Eigentlich gibt es keinen Trennstrich zwischen dem zweiten Ziffernblock und dem Nummernblock... 
+
+
+c)
+i. MR-LS-3456
+
+MR -> <Buchstabe><Buchstabe> -> gültiges Unterscheidungszeichen
+- -> <Blocktrenner> Terminalsymbol
+LS-3456 -> <Buchstabe><Buchstabe>-<Ziffer><Ziffer><Ziffer> gültiges Erkennungszeichen
+
+Gültiges KFZ Kennzeichen
+
+ii. MTK-RK-236
+
+MTK -> <Buchstabe><Buchstabe><Buchstabe> -> gültiges Unterscheidungszeichen
+- -> <Blocktrenner> 
+RK-236 -> <Buchstabe><Buchstabe>-<Ziffer><Ziffer><Ziffer> -> gültiges Erkennungszeichen
+
+Gültiges KFZ Kennzeichen
+
+iii. LTKS-JS-36
+
+LTKS -> <Buchstabe><Buchstabe><Buchstabe><Buchstabe> -> Ungültiges Unterscheidungszeichen -> Ungültiges KFZ Kennzeichen
