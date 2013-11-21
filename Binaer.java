@@ -75,7 +75,7 @@ public class Binaer {
      * auf der Konsole ausgegeben werden. Die Methode muss nicht verstanden werden oder reproduzierbar sein. 
      * Sie funktioniert und soll euch nur als Hilfestellung dienen, falls ihr eine größere Dezimal-Zahl gerne als Binärzahl hättet.
      * @param x beliebiger int-Wert, der in eine Binärzahl umgerechnet werden soll (als String)
-     * @return Eine kleiner Text, den man auf der Konsole ausgeben kann.
+     * @return Eine kleiner Text, den man auf der Konsole ausgeben kann. 
      */
 	public static String intToBin(int x){
 		String bin="";
